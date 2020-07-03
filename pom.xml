@@ -22,12 +22,20 @@
             <artifactId>jsoup</artifactId>
             <version>1.13.1</version>
         </dependency>
+        
         <!-- https://mvnrepository.com/artifact/jboss/jboss-j2ee -->
         <dependency>
             <groupId>jboss</groupId>
             <artifactId>jboss-j2ee</artifactId>
             <version>4.2.2.GA</version>
             <scope>provided</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-core -->
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-core</artifactId>
+            <version>10.0.0-M6</version>
         </dependency>
 
         
